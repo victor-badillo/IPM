@@ -1,0 +1,25 @@
+Documento de retrospección del trabajo del equipo en la práctica.
+
+a) ¿Qué ha sido lo mejor de la práctica?
+Ver el resultado final de la app y como esta funcionaba, al ser la primera vez que hacíamos una pagina web.
+
+b) ¿Qué fue lo peor?
+Que al cambiar algunos parámetros de css, los botones dejasen de funcionar como debían, lo cual nos hizo perder mucho el tiempo arreglándolo.
+
+c) ¿Cuál fue el mejor momento de cada semana durante el trabajo del equipo?
+Cuando acabábamos la tarea y veíamos que todo funcionaba bien.
+
+d) ¿Cuál ha sido el peor?
+cuando metimos javascritpt y algunas cosas dejaron de verse como debían.
+
+e) ¿Qué has aprendido?
+Hemos aprendido a usar html, css y javascritp para crear una pagina web funcional.
+
+f) ¿Qué necesitáis conservar -como equipo- para las próximas semanas?
+Deberíamos mantener el método de trabajo y la motivación, que nos han ayudado a conseguir siempre un buen resultado.
+
+g) ¿Qué tenéis que mejorar -como equipo- para las próximas semanas?
+Deberíamos trabajar un poco mas en la comunicación, ya que hubo momentos en los q por falta de comunicación entre los miembros del equipo, se produjeron algunas confusiones.
+
+h) ¿Cómo se relaciona ESTE contenido con otros del curso y con tu titulación?
+De las asignaturas cursadas por el momento, solo lo relacionaría con redes y lsi ya que tratamos con paginas web.

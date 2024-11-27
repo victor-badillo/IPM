@@ -1,0 +1,27 @@
+Documento de retrospección del trabajo del equipo en la práctica.
+
+a) ¿Qué ha sido lo mejor de la práctica?
+Ver el resultado final de la app y como esta funcionaba, al ser la primera vez que haciamos una aplicación para móvil.
+
+b) ¿Qué fue lo peor?
+No entender bien como funciona flutter en ningún momento ya que eso nos imposibilitó hacer las cosas bien y nos hizo perder mucho el tiempo.
+
+c) ¿Cuál fue el mejor momento de cada semana durante el trabajo del equipo?
+El momento donde ya veias como habías conseguido acabar el trabajo a tiempo y aunque no fuera con el mejor resultado, con algo bastante decente. 
+También cuando tras mucho tiempo sin que algo funcionase, finalmente conseguíamos arreglarlo.
+
+d) ¿Cuál ha sido el peor?
+Esos momentos en los que las cosas no funcionaban para algunos de los miembros del equipo y a otros sí, aun teniendo el mismo código.
+
+e) ¿Qué has aprendido?
+Hemos aprendido a usar e instalar flutter, cómo escribir código en dart, cómo buscar en la documentación de flutter, cómo ejecutar nuestra aplicación 
+en el simulador del móvil y qué son y cómo hacer los test end-to-end de una aplicación. En resumen cómo podemos crear una apliación para móvil.
+
+f) ¿Qué necesitáis conservar -como equipo- para las próximas semanas?
+Deberiamos mantener el método de trabajo y la motivación, que nos han ayudado a conseguir siempre un buen resultado.
+
+g) ¿Qué tenéis que mejorar -como equipo- para las próximas semanas?
+Deberíamos trabajar en repartirnos mejor el trabajo y organizarnos, para así realizar las tareas de manera más ágil.
+
+h) ¿Cómo se relaciona ESTE contenido con otros del curso y con tu titulación?
+De las asignaturas cursadas por el momento, solo lo relacionaría con DS debido al uso de UML  y algunos aspectos parecidos a los patrones de diseño.

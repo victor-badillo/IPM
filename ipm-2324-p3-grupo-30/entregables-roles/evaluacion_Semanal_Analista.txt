@@ -1,0 +1,38 @@
+Semana 1 (28/11/2023-05/12/2023)
+
+a.- Emilio Nicolás Corral Bermúdez, nota = 5
+b.- Pablo Legide Vidal, nota = 5
+c.- Víctor Nathanael Badillo Aldama, nota = 5
+
+Esta primera semana, para poder completar la tarea nuestra labor principal ha sido informarnos sobre los distintos contenidos del trabajo, 
+repartir los roles y realizar los distintos diseños. Todos cumplimos con nuestra parte del diseño a tiempo, esta vez el trabajo lo realizamos de
+forma coordinada y rapido, asi que no solo conseguimos realizar la tarea 1 en tiempo, sino que adelantamos el trabajo de la segunda tarea, casi acabándola.
+
+Respecto a los roles, cada uno cumplió con su rol de forma adecuada, aun que realizamos la tarea entre todos, sin centrarnos cada uno, únicamente en nuestro rol.
+
+Como conclusion, creo que realizamos el trabajo de la mejor forma posible utilizando lo aprendido en las anteriores prácticas y no creemos que se pueda mejorar algo
+de la forma en la que lo realizamos.
+
+Semana 2 (05/12/2023-12/12/2023)
+
+a.- Emilio Nicolás Corral Bermúdez, nota = 5
+b.- Pablo Legide Vidal, nota = 5
+c.- Víctor Nathanael Badillo Aldama, nota = 4
+
+En la segunda semana, el trabajo no fue muy complicado, por lo que realizamos el trabajo de forma coordinada y rápidamente.
+
+En cuanto a los roles, cada individuo desempeñó su papel de manera apropiada, aunque llevamos a cabo la tarea de manera colaborativa, sin enfocarnos exclusivamente en nuestro rol.
+
+Por último, como objetivos de mejora sería entender mejor css para poder hacer cambios más rápidos y para que la pagina sea más agradable a la vista. Aun así, la dedicación y el esfuerzo fue bueno.
+
+Semana 3 (12/12/2023-19/12/2023)
+
+a.- Emilio Nicolás Corral Bermúdez, nota = 5
+b.- Pablo Legide Vidal, nota = 5
+c.- Víctor Nathanael Badillo Aldama, nota = 5
+
+En la tercera semana, el trabajo fluyó sin mucha dificultad, por lo que lo acabamos bastante rapido, no obstante, tuvimos algún problema ya que al introducir javascript, algunas características del css se vieron modificadas, como por ejemplo los botones del menú se expandieron ocupando mas tamaño del que deberían.
+
+En relación a los roles, al igual que en las tareas anteriores, todos hicimos un poco de todo.
+
+Además, como objetivos de mejora, buscamos ampliar nuestros conocimientos de javascript para añadir nuevas y mejores funcionalidades a nuestre pagina

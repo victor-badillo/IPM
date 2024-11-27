@@ -1,0 +1,21 @@
+Documentacion del proyecto  
+Tarea 1: Diseño de la interfaz  
+semana 31/10 - 7/11  
+Durante esta primera semana realizamos lo siguiente: pensamos los casos de uso, diseñamos la interfaz de usuaria tanto para móvil como para tablet. Hicimos el diseño de la interfaz en horizontal también para cada dispositivo.
+
+Tras realizar esto decidimos que patrón arquitectónico vamos a usar y decidimos optar por el patrón de estado local ya que es adecuado para flutter. 
+
+  
+Hicimos un primer UML, tanto el diagrama estático como los digramas dinámicos, para cada caso de uso.
+
+Tarea 2: Implementación de la aplicación
+semana 7/11 -14/11
+Durante esta semana nos dedicamos más a entender el funcionamiento de flutter y como se utiliza. Hicimos un boceto inicial de la aplicación pero fue más para revisar y aprender los primeros pasos.
+
+semana 14/11 - 21/11  
+Esta semana nos pusimos a desarrollar todas las funcionalidades y empezar a hacer código.Tuvimos dificultades al principio pero luego conseguimos entender bien lo que estábamos haciendo y ya no hubo más dificultades. Decidimos probar ademas nuestra app en el movil físico para ver como sería.
+  
+
+Tarea 3: Test end2end
+semana 21/11 - 28/11  
+Durante esta semana tuvimos que entender como se hacen tests de integración. Decididos a empezar tuvimos problemas y no pudimos hacer los tests al principio. Tras arreglar este problema realizamos los tests para cada caso de uso, tanto para el funcionamiento correcto, como para ver los errores posibles de la usuaria.

@@ -1,0 +1,60 @@
+Semana 1 (31/10/2023-07/11/2023)
+
+a.- Emilio Nicolás Corral Bermúdez, nota = 4
+b.- Pablo Legide Vidal, nota = 4
+c.- Víctor Nathanael Badillo Aldama, nota = 4
+
+Esta primera semana, para poder completar la tarea nuestra labor principal ha sido informarnos sobre los distintos contenidos del trabajo, 
+repartir los roles y realizar los distintos diseños. Todos cumplimos con nuestra parte del diseño a tiempo, pero el trabajo no fue optimamente coordinado y
+esto hizo que nos llevara más de lo que debería.
+
+Respecto a los roles, cada uno cumplió bien su función, aunque al ser la primera semana el trabajo fue realizado de forma conjunta, 
+no centrándose cada uno únicamente en la tarea de su rol.
+
+Por último, como objetivos de mejora lo principal sería organizar mejor la semana intentando pensar, ya que lo dejamos todo para los últimos días, 
+lo que dificultaría mucho la entrega en el caso de ser una tarea de mayor carga de trabajo, como puede ser la siguiente.
+
+Semana 2 (07/11/2023-14/11/2023)
+
+a.- Emilio Nicolás Corral Bermúdez, nota = 4
+b.- Pablo Legide Vidal, nota = 4
+c.- Víctor Nathanael Badillo Aldama, nota = 4
+
+En la segunda semana, para poder empezar la segunda tarea tuvimos que instalar flutter y realizar entre todos un primer boceto de nuestra app 
+a partir del codelab que se nos entregó. La mayoría de trabajo fue individual y todos lo cumplimos a tiempo para poder empezar a trabajar conjuntamente
+en la app, pero al ser la primera vez que usabamos flutter se nos complicó mucho la tarea aun siendo esta sencilla.
+
+Respecto a los roles, cada uno cumplió bien la tarea de su rol, apuntando Emilio enlaces que fuimos utilizando como el codelab, Badillo por su parte
+apuntando el trabajo que realizamos y yo realizando la evaluación correspondiente. 
+
+Por último, como objetivos de mejora sería tratar de entender mejor como funciona flutter para avanzar más rápidamente y centrarnos en lo importante, 
+ya que por desconocimiento ahora mismo estamos trabajando muy lento y sin entender bien lo que hacemos. Aún así la dedicación y el esfuerzo fue bueno.
+
+Semana 3 (14/11/2023-21/11/2023)
+
+a.- Emilio Nicolás Corral Bermúdez, nota = 5
+b.- Pablo Legide Vidal, nota = 5
+c.- Víctor Nathanael Badillo Aldama, nota = 5
+
+En esta semana prácticamente tuvimos que hacer un 80% del trabajo, ya que la semana anterior no pudimos hacer más que un boceto de la aplicación y quedaba
+mucho por hacer para cumplir con la entrega. El trabajo fue grupal en todo momento, ya que nos lo repartimos de forma que uno de nosotros, mientras compartía,
+pantalla, iba escribiendo el código y los otros dos ayudaban e iban corrigiendo según iba haciendo falta, alternando. Fue una tarea complicada y al haber 
+conseguido entregar algo de lo que estamos orgullosos, considero que todos merecemos un 5 en lo que a esfuerzo se refiere.
+
+Cada uno cumplió con lo que le tocaba respecto a su rol. Respecto a los objetivos de mejora, saber más de flutter ayudaría a resolver problemas que 
+en los que nos estancamos sin ser algo complicado, consiguiendo así ir mucho más rápido. Además, llegamos a estar perdidos respecto a como seguíamos el
+patrón en el código, por lo que también deberíamos tratar de entenderlo mejor.
+
+Semana 4 (21/11/2023-28/11/2023)
+
+a.- Emilio Nicolás Corral Bermúdez, nota = 5
+b.- Pablo Legide Vidal, nota = 5
+c.- Víctor Nathanael Badillo Aldama, nota = 5
+
+En esta semana acabamos el trabajo con la parte de los test end-to-end. Y al igual que la semana pasada por problemas que no sabemos como solucionar,
+nos costó mucho avanzar. Aun así después de un gran esfuerzo entre todos, conseguimos cumplir con la entrega de la tarea3.
+
+Al ser la entrega final esta vez todos tuvimos que hacer nuestro respectivo entregable del rol. Como objetivos a mejorar para posibles futuros trabajos
+con flutter sería tratar de entender todo de la mejor manera antes de empezar a trabajar, objetivo que no pudimos cumplir para esta práctica debido al poco
+margen que había con las entregas.
+

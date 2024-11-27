@@ -1,0 +1,28 @@
+Objetivos de aprendizaje: https://developer.mozilla.org/es/docs/Web/HTML
+https://www.w3.org/Style/CSS/Overview.en.html
+•Tarea 1:
+
+-En esta primera tarea nos dispusimos a diseñar la interfaz de la página web y hacerlo en html5 y css3 siguiendo para esta tarea y las demás las normas de accesibilidad WCAG 2 y también sin usar ninguna librería o framework CSS. Aprendimos a manejarnos con html5 y css3 y aprendimos a hacer el diseño enfocado a dispositivos móviles.
+
+->Recursos:
+https://developer.mozilla.org/es/docs/Web/HTML
+https://www.w3.org/Style/CSS/Overview.en.html
+https://chat.openai.com/
+
+•Tarea 2:
+
+-Tras realizar la interfaz en la tarea aprendimos a realizar un diseño adaptativo. Conseguimos que el diseño de la interfaz cambie según las dimensiones del dispositivo y que sea compatible con varios navegadores web.
+
+->Recursos:
+https://developer.mozilla.org/es/docs/Web/HTML
+https://www.w3.org/Style/CSS/Overview.en.html
+https://chat.openai.com/
+
+
+•Tarea 3:
+
+-En esta última tarea aprendimos en que consisten las normas de accesibilidad Web WAI-ARIA (como por ejemplo, accesibilidad a la web para personas con discapacidad visual) y aprendimos también lo que es javascript y como usarlo para que nuestra página web "funcione" al pulsar uno de los botones para realizar uno de los casos de uso.
+
+->Recursos:
+https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps
+https://chat.openai.com/

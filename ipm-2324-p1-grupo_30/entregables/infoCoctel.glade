@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="ventanaDetalleCocktail">
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Detalle del Cóctel</property>
+    <property name="default-width">600</property>
+    <property name="default-height">400</property>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkHeaderBar">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkButton" id="botonLogoV">
+                <property name="width-request">-1</property>
+                <property name="height-request">-1</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <signal name="clicked" handler="on_botonLogoV_clicked" swapped="no"/>
+                <child>
+                  <object class="GtkImage">
+                    <property name="width-request">-1</property>
+                    <property name="height-request">-1</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="pixbuf">home.png</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkProgressBar" id="cargarInfoCoctel">
+                <property name="width-request">250</property>
+                <property name="can-focus">False</property>
+                <property name="no-show-all">True</property>
+                <property name="fraction">0.20</property>
+                <property name="text" translatable="yes">Cargando...</property>
+                <property name="show-text">True</property>
+              </object>
+              <packing>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="margin-start">20</property>
+            <property name="margin-end">20</property>
+            <property name="margin-top">10</property>
+            <property name="margin-bottom">20</property>
+            <child>
+              <object class="GtkImage" id="cocktailImage">
+                <property name="name">cocktailImage</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="margin-start">20</property>
+                <property name="margin-end">10</property>
+                <property name="margin-top">20</property>
+                <property name="margin-bottom">10</property>
+                <property name="stock">gtk-missing-image</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkTextView" id="nameAndDescriptionText">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="margin-end">20</property>
+                <property name="margin-top">20</property>
+                <property name="margin-bottom">10</property>
+                <property name="editable">False</property>
+                <property name="wrap-mode">word</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="infoCoctelIngredientes">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Ingredientes:</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkTextView" id="ingredientsText">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="margin-start">20</property>
+                <property name="margin-end">20</property>
+                <property name="margin-top">10</property>
+                <property name="margin-bottom">10</property>
+                <property name="editable">False</property>
+                <property name="wrap-mode">word</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="infoCoctelModoPreparacion">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Modo de preparación:</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkTextView" id="preparationText">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="margin-start">20</property>
+                <property name="margin-end">20</property>
+                <property name="margin-top">10</property>
+                <property name="margin-bottom">10</property>
+                <property name="wrap-mode">word</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">6</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

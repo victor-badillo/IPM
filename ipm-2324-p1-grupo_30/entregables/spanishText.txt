@@ -1,0 +1,13 @@
+{
+"textBotonListCock": "Lista Cocteles",
+"textCargarPantallaBusqueda": "Cargando...",
+"textCargarPantallaListado": "Cargando...",
+"textListaCocteles": "Nombre del coctel",
+"textIngredientes": "Ingredientes",
+"textPreparacion": "Modo de preparacion",
+"textCargarPantallaInfo": "Cargando...",
+"textNoEncontradoLabel": "Coctel no encontrado",
+"textBotonNoEncontradoListado": "Listado de cocteles por letra",
+"textErrorServer": "ERROR. NO SE HA PODIDO ESTABLECER CONEXION CON EL SERVIDOR",
+"textError": "ERROR"
+}

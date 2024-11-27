@@ -1,0 +1,13 @@
+{
+"textBotonListCock": "Cocktail List",
+"textCargarPantallaBusqueda": "Loading...",
+"textCargarPantallaListado": "Loading...",
+"textListaCocteles": "Cocktail Name",
+"textIngredientes": "Ingredients",
+"textPreparacion": "Preparation method",
+"textCargarPantallaInfo": "Loading...",
+"textNoEncontradoLabel": "Cocktail not found",
+"textBotonNoEncontradoListado": "Cocktail list sorted by letter",
+"textErrorServer": "ERROR. IMPOSSIBLE TO CONNECT WITH SERVER",
+"textError": "ERROR"
+}

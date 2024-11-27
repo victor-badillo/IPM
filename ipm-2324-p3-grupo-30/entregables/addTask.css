@@ -1,0 +1,194 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+    padding: 50px;
+    border-radius: 10px; /* Hacemos los bordes del contenedor más redondeados */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Añadimos una sombra */
+    background-color: #f0f0f0;
+}
+
+
+
+/* Estilos para el formulario */
+
+.add-task-title {
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1.5em; 
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 15px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+    font-size: 1.5em; 
+}
+
+button {
+    width: 100%;
+    padding: 15px; 
+    font-size: 1.5em; 
+    background-color: #727272;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos para móvil en horizontal */
+@media only screen and (max-width: 600px) and (orientation: landscape){
+    .container {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+    label {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    input[type="text"],
+    textarea {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    button {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+}
+
+/* Estilos para tablet en modo vertical*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) and (orientation: portrait) {
+    .container {
+        margin-top: 75px;
+        padding: 150px;
+        font-size: 2em;
+    }
+    h1 {
+        font-size: 2.7em;
+    }
+    h2{
+        font-size: 2.5em;
+    }
+    label {
+        font-size: 1.3em;
+        margin-bottom: 12px;
+    }
+    input[type="text"],
+    textarea {
+        padding: 12px;
+        font-size: 1.3em;
+    }
+    button {
+        padding: 12px;
+        font-size: 1.3em;
+    }
+}
+
+/* Estilos para tablet en modo horizontal*/
+@media only screen and (min-width: 1000px) and (max-width: 1399px) and (orientation: landscape) {
+    .container {
+        margin-top: 50px;
+        padding: 50px;
+        font-size: 2em;
+    }
+    h1 {
+        font-size: 2.7em;
+    }
+    h2{
+        font-size: 2.5em;
+    }
+    label {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    input[type="text"],
+    textarea {
+        padding: 15px;
+        font-size: 1.5em;
+    }
+    button {
+        padding: 15px;
+        font-size: 1.5em;
+    }
+}
+
+/* Estilos para desktop */
+@media only screen and (min-width: 1400px) {
+    .container {
+        margin-top: 70px;
+        padding: 25px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    label {
+        font-size: 1.7em;
+        margin-bottom: 20px;
+    }
+    input[type="text"],
+    textarea {
+        padding: 20px;
+        font-size: 1.7em;
+    }
+    button {
+        padding: 20px;
+        font-size: 1.7em;
+    }
+}

@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    width: auto;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: auto;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.container {
+    display: block;
+}
+
+.button-column {
+    display: none;
+    flex-wrap: wrap; /* Si el boton no cabe va a la siguiente fila*/
+    width: 100%; 
+    margin-top: 10px;
+    justify-content: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    top: calc(5% + 1px); /* Margen para que los botones no se metan debajo del de menu*/
+}
+
+.button-column button {
+    padding: 10px; 
+    font-size: 0.8em; 
+    margin: 10px;
+    background-color: #727272;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: calc(30% - 20px); /* Ajusta el ancho para que haya tres botones por fila */
+}
+
+.menu-button {
+    width: 100%;
+    background-color: #727272;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 15px;
+    font-size: 1em;
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    transition: transform 0.2s ease-out;
+}
+
+.menu-button:active {
+    transform: scale(0.95);
+}
+
+.info-container {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.info {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 50px;
+}
+
+.select-button {
+    background-color: #727272;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.select-button:active {
+    transform: scale(0.95);
+    transition: transform 0.2s ease-out;
+}
+
+
+/* Estilos para tablet en modo vertical*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) and (orientation: portrait) {
+
+    body {
+        font-size: 30px;
+    }
+
+    header {
+        padding: 10px 0;
+        font-size: 25px;
+        
+    }
+
+    h1 {
+        font-size: 2.1em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .info-container {
+        flex: 1; /* Hacemos que el contenedor de información ocupe todo el espacio disponible */
+        margin: 0;
+    }
+
+    .info {
+        margin-bottom: 10px;
+        font-size: 0.83em;
+    }
+
+    .select-button {
+        font-size: 1em;
+    }
+
+    .button-column {
+        top: calc(5% + 2px); /* Margen para que los botones no se metan debajo del de menu*/
+    }
+
+    .button-column button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos para tablet en modo horizontal*/
+@media only screen and (min-width: 1000px) and (max-width: 1399px) and (orientation: landscape) {
+    body {
+        font-size: 0.8em;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .button-column {
+        width: auto;
+        padding: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #fff;
+        flex-wrap: nowrap;
+    }
+
+    .button-column button {
+        padding: 20px;
+        font-size: 1em;
+        width: auto;
+        margin: 5px;
+        background-color: #727272;
+        color: white;
+        border:none;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .button-column button:active {
+        transform: scale(0.95);
+        transition: transform 0.2s ease-out;
+    }
+    
+    .info-container {
+        padding: 50px;
+        padding-top: 40px;
+        padding-left: 100px;
+        overflow-y: auto;
+        margin-left: 20px;
+        font-size: 1.5em;
+    }
+
+    .select-button {
+        font-size: 1em;
+    }
+
+    .menu-button {
+        display: none;
+    }
+}
+
+/* Estilos para desktop */
+@media only screen and (min-width: 1400px) {
+    
+    .button-column {
+        width: auto; 
+        padding: 20px; 
+        margin-bottom: 20px; 
+        display: flex; 
+        justify-content: space-around; /* Distribuimos los botones horizontalmente */
+        position: sticky;
+        top: 0; 
+        z-index: 1; /* Ajustamos el índice z para superponerlo si es necesario */
+        background-color: #fff; 
+        flex-wrap: nowrap;
+    }
+
+    .button-column button {
+        padding: 20px; 
+        font-size: 1em; 
+        width: auto; 
+        margin: 10px;
+        background-color: #727272;
+        color: white;
+        border:none;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .button-column button:active {
+        transform: scale(0.95);
+        transition: transform 0.2s ease-out;
+    }
+
+    .info-container {
+        padding-top: 40px;
+        padding-left: 100px;
+        overflow-y: auto;
+        font-size: 1.5em;
+    }
+
+    .select-button,
+    .menu-button {
+        font-size: 1em;
+    }
+
+    .menu-button {
+        display: none; 
+    }
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkTreeStore" id="nombresCocteles">
+    <columns>
+      <!-- column-name nombreCocteles -->
+      <column type="gchararray"/>
+    </columns>
+  </object>
+  <object class="GtkWindow" id="ventanaListado">
+    <property name="can-focus">False</property>
+    <property name="default-width">600</property>
+    <property name="default-height">400</property>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkHeaderBar">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkButton" id="botonLogo">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <signal name="clicked" handler="on_botonLogo_clicked" swapped="no"/>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="pixbuf">home.png</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkProgressBar" id="cargarPantallaListado">
+                <property name="width-request">250</property>
+                <property name="can-focus">False</property>
+                <property name="no-show-all">True</property>
+                <property name="fraction">0.20</property>
+                <property name="text" translatable="yes">Cargando...</property>
+                <property name="show-text">True</property>
+              </object>
+              <packing>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkComboBoxText">
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">False</property>
+            <items>
+              <item id="A" translatable="yes">A</item>
+              <item id="B" translatable="yes">B</item>
+              <item id="C" translatable="yes">C</item>
+              <item id="D" translatable="yes">D</item>
+              <item id="E" translatable="yes">E</item>
+              <item id="F" translatable="yes">F</item>
+              <item id="G" translatable="yes">G</item>
+              <item id="H" translatable="yes">H</item>
+              <item id="I" translatable="yes">I</item>
+              <item id="J" translatable="yes">J</item>
+              <item id="K" translatable="yes">K</item>
+              <item id="L" translatable="yes">L</item>
+              <item id="M" translatable="yes">M</item>
+              <item id="N" translatable="yes">N</item>
+              <item id="O" translatable="yes">O</item>
+              <item id="P" translatable="yes">P</item>
+              <item id="Q" translatable="yes">Q</item>
+              <item id="R" translatable="yes">R</item>
+              <item id="S" translatable="yes">S</item>
+              <item id="T" translatable="yes">T</item>
+              <item id="U" translatable="yes">U</item>
+              <item id="V" translatable="yes">V</item>
+              <item id="W" translatable="yes">W</item>
+              <item id="Y" translatable="yes">Y</item>
+              <item id="Z" translatable="yes">Z</item>
+            </items>
+            <signal name="changed" handler="on_combo_box_changed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow">
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="shadow-type">in</property>
+            <child>
+              <object class="GtkTreeView" id="listaCocteles">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="hexpand">True</property>
+                <property name="vexpand">True</property>
+                <property name="model">nombresCocteles</property>
+                <property name="search-column">0</property>
+                <property name="tooltip-column">0</property>
+                <signal name="row-activated" handler="on_treeview_row_activated" swapped="no"/>
+                <child internal-child="selection">
+                  <object class="GtkTreeSelection"/>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TODO App</title>
+</head>
+<body>
+    <header>
+        <h1>TODO App</h1>
+        <h2>Tareas</h2>
+    </header>
+    
+    <button class="menu-button" aria-label="Abrir menú" role="button">Menú</button>
+    
+    <div class="container">
+        <div class="button-column" aria-hidden="true" role="toolbar">
+            <button aria-label="Añadir nueva tarea" role="button">Añadir nueva tarea</button>
+            <button aria-label="Marcar todas como completadas" role="button">Marcar todas como completadas</button>
+            <button aria-label="Ver todas las tareas" role="button">Ver todas las tareas</button>
+            <button aria-label="Ver tareas completadas" role="button">Ver tareas completadas</button>
+            <button aria-label="Ver tareas activas" role="button">Ver tareas activas</button>
+            <button aria-label="Borrar tareas completadas" role="button" id="deleteCompletedButton">Borrar tareas completadas</button>
+            <button aria-label="Marcar tarea como completada" role="button">Marcar tarea como completada</button>
+            <button aria-label="Editar la descripción de la tarea" role="button">Editar la descripción de la tarea</button>
+            <button aria-label="Borrar tarea" role="button">Borrar tarea</button>
+        </div>
+
+        <div class="info-container" role="region" aria-live="polite"> <!-- Lo de role="region" aria-live="polite" es para anunciar si se editan los campos de una tarea -->
+            <p><strong>Número de tareas activas: <span>1</span></strong></p>
+
+            <div class="info completada">   
+                <p><strong>Tarea 1<button class="select-button">Seleccionar</button></strong></p>
+                <p><strong>Estado:</strong> Completada</p>
+                <p><strong>Descripción:</strong> Descripción de la tarea 1</p>
+            </div>
+            
+            <div class="info">
+                <p><strong>Tarea 2<button class="select-button">Seleccionar</button></strong></p>
+                <p><strong>Estado:</strong> Activa</p>
+                <p><strong>Descripción:</strong> Descripción de la tarea 2</p>
+            </div>
+            
+            <div class="info completada">
+                <p><strong>Tarea 3<button class="select-button">Seleccionar</button></strong></p>
+                <p><strong>Estado:</strong> Completada</p>
+                <p><strong>Descripción:</strong> Descripción de la tarea 3</p>
+            </div> 
+            
+            <div class="info completada">
+                <p><strong>Tarea 4<button class="select-button">Seleccionar</button></strong></p>
+                <p><strong>Estado:</strong> Completada</p>
+                <p><strong>Descripción:</strong> Descripción de la tarea 4</p>
+            </div>  
+
+            <div class="info completada">
+                <p><strong>Tarea 5<button class="select-button">Seleccionar</button></strong></p>
+                <p><strong>Estado:</strong> Completada</p>
+                <p><strong>Descripción:</strong> Descripción de la tarea 5</p>
+            </div>  
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuButton = document.querySelector('.menu-button');
+            const buttonColumn = document.querySelector('.button-column');
+            const deleteCompletedButton = document.getElementById('deleteCompletedButton');
+            const completedTasks = document.querySelectorAll('.completada');
+
+            let buttons = false;
+
+            menuButton.addEventListener('click', function() {
+                const isExpanded = menuButton.getAttribute('aria-expanded') === 'true';
+                menuButton.setAttribute('aria-expanded', String(!isExpanded));
+
+                const isHidden = buttonColumn.getAttribute('aria-hidden') === 'true';
+                buttonColumn.setAttribute('aria-hidden', String(!isHidden));
+
+                if (buttons) {
+                    buttonColumn.style.display = 'none';
+                    buttons = false;
+                } else {
+                    buttonColumn.style.display = 'flex';
+                    buttons = true;
+                }
+            });
+
+            deleteCompletedButton.addEventListener('click', function() {
+                completedTasks.forEach(function(task) {
+                    task.remove();
+                });
+            });
+        });
+    </script>
+</body>
+</html>
